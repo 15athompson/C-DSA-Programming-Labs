@@ -1,0 +1,28 @@
+It prompts the user to enter scores for 5 modules.
+It includes error handling for invalid input (scores outside the range of 0 to 100 or non-numeric input).
+It outputs the names of the modules and corresponding marks.
+It calculates and displays the final average grade.
+It determines and displays the classification based on the university’s grading system.
+It states whether the student gets an award (for 1st class classification).
+It makes use of functions for different tasks (getting valid scores, calculating average, determining classification).
+
+The program will then guide the user through entering scores for each module and display the results, including whether the student qualifies for a graduation prize.
+
+----------------
+
+Improvements:
+
+A Student struct to hold all student information.
+Input for student name, ID, and custom module names.
+File I/O to save and load student records.
+A menu system for multiple operations (add student, display records, save, exit).
+Input validation for student information.
+A function to display all saved records.
+Ability to handle multiple students (up to MAX_STUDENTS).
+
+Add student information
+Implement module names input
+Add file I/O to save and load student records
+Implement a menu system for multiple operations
+Add input validation for student information
+Implement a function to display all saved records
