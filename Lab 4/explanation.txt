@@ -1,0 +1,20 @@
+Time Complexity Analysis:
+
+Without Memoization (Pure Recursion):
+
+The time complexity is exponential, specifically O(2^n). This is because it recalculates the same subproblems multiple times.
+
+With Memoization:
+
+The time complexity is reduced to O(n). This is because each Fibonacci number is calculated only once and then stored for future reference.
+
+-------
+
+Recursive Fibonacci Function without Memoization:
+
+The naive recursive implementation of the Fibonacci function has an exponential time complexity of ( O(2^n) ). This is because each call to fibonacci(n) generates two additional calls: fibonacci(n-1) and fibonacci(n-2). This leads to a vast number of overlapping subproblems being recalculated, which results in repeated computations.
+Recursive Fibonacci Function with Memoization:
+
+The time complexity with memoization is ( O(n) ). In this approach, each Fibonacci number from 0 to ( n ) is computed only once, and the results are stored in the memoization array. Each of the ( n ) Fibonacci numbers is calculated and simply looked up in constant time ( O(1) ) if already computed.
+Conclusion
+Using memoization significantly improves the performance of the Fibonacci calculation, as it reduces the time complexity from exponential to linear. This approach leverages additional space to store computed values, yielding substantial efficiency gains for larger inputs.
